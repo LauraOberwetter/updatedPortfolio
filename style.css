@@ -8,7 +8,7 @@
 
 
 .jumbotron {
-    background-image: url(assets/background.png);
+    background-image: url('assets/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -40,7 +40,7 @@ a {
 
 #About {
     background: var(--orange);
-    background: radial-gradient(circle, rgba(255,132,83,1) 0%, rgba(255,239,242,1) 60%);
+    background: radial-gradient(circle, rgba(255,132,83,1) 0%, rgba(255,239,242,1) 70%);
     font-family: 'Texturina', serif;
     text-align: center;
     padding-top: 10%;
