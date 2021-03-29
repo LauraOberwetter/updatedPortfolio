@@ -1,0 +1,98 @@
+:root {
+    --blue: #C6C0F3;
+    --orange:#ff8453;
+    --yellow: rgb(233,237,10);
+    --pink:#ffeff2;
+  }
+
+
+
+.jumbotron {
+    background-image: url(/Users/lauraoberwetter/Desktop/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15%;
+    background-position: center;
+    /* look into object fit for working with actual <img> */
+    /* background-position helpful for making background img more responsive (set to center)*/
+    /* background-attachment: ; */
+
+   }
+
+.name {
+    font-family: 'Texturina', serif;    
+    color: var(--blue);
+    font-size: 6em;
+}
+
+.navContainer {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--orange)!important;
+    font-family: 'Eurostile Extended', sans-serif;
+    font-size: 2em;  
+}
+
+#About {
+    background: var(--orange);
+    background: radial-gradient(circle, rgba(255,132,83,1) 0%, rgba(255,239,242,1) 70%);
+    font-family: 'Texturina', serif;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+h1, h5 {
+    color: indigo;
+    padding-bottom: 5%;
+}
+
+p {
+    color: white;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Eurostile Extended', sans-serif;
+}
+
+.card-group {
+    margin-left: 10%;      
+    margin-right: 10%;
+    width: auto;
+}
+
+.fas, .fab {
+    font-size: 3em;
+    padding: 5%;
+    color: var(--blue);
+    
+}
+
+.card-text {
+    color: var(--orange);
+}
+
+
+
+#work {
+    background: var(--yellow);
+    background: radial-gradient(circle, rgba(233,237,10,1) 0%, rgba(255,239,242,1) 70%);
+    font-family: 'Texturina', serif;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#contact {
+    background: rgb(198,192,243);
+    background: radial-gradient(circle, rgba(198,192,243,1) 0%, rgba(255,239,242,1) 70%);
+    font-family: 'Texturina', serif;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
